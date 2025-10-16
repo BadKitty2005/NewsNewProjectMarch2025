@@ -15,7 +15,7 @@ import org.koin.androidx.compose.getViewModel
 @Composable
 fun NewsScreen(viewModel: NewsViewModel = getViewModel()) {
     val news by viewModel.newsState.collectAsState()
-
+//sdkiser
     Scaffold(
         topBar = {
             TopAppBar(title = { Text("NewsFlow") }, actions = {
